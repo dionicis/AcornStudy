@@ -24,8 +24,10 @@ public class ArrayEx1 {
 
 		int[] b = new int[10];
 		int x = 10;
-		for (int idx = 0; idx < 10; idx++, x += 10)
+		for (int idx = 0; idx < 10; idx++){
 			b[idx] = x;
+			x += 10;
+		}
 		// b[숫자] : 숫자 ==>첨자, 인덱스
 		for (int i = 0; i < 10; i++)
 			System.out.println("b[" + i + "] : " + b[i]);

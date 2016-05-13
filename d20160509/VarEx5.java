@@ -13,7 +13,7 @@ public class VarEx5 {
 		byte b = 22; // 0001 0110;
 		
 		int c = a&b; // 0000 0010;
-		int d = a|b; // 0000 1110;
+		int d = a|b; // 0001 1110;
 		System.out.println(c); //int형 c를 출력
 		System.out.println(d); //int형 d를 출력
 		
